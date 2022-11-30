@@ -1,0 +1,48 @@
+body{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    background-blend-mode: multiply,multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.calculadora {
+    width: 300px;
+    border: solid 1px #ebebeb;
+    padding: 24px;
+    margin-left: calc(50% - 150px);
+    margin-top: 10%;
+    border-radius: 20%;
+    background-image: linear-gradient(to top, #6a85b685 0%, #779fee85 100%), url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 0px 0px 20px 5px #041728ee;
+    color: rgb(6, 17, 37);
+    font-size: 2em;
+    box-shadow: 15px 10px 20px 5px #1e1f20ee;
+}
+
+#misdatos {
+    background-color: aliceblue;
+    border: solid 1px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    margin-left: calc(50% - 50px);
+    margin-top: 20px;
+}
+
+.item {
+    border: solid 1px #ebebeb;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.nombre {
+    float: left;
+}
+
+.botones{
+   
+   display: flex;
+   justify-content: space-around;
+  
+}
